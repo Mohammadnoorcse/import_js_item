@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navingation Bar</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <nav id="navbar">
+            <img src="./images/logo.png" alt="logo">
+            <ul id="menu">
+                <li>Home</li>
+                <li>About</li>
+                <li>Services</li>
+                <li>Product</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </div>
+    <p class="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque facere ea magnam placeat adipisci! Quo a fuga odit perferendis itaque fugiat facere, accusantium tenetur deserunt. Temporibus rem quia dolorum quidem.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum at modi quidem suscipit provident aut molestiae, eum quisquam labore assumenda distinctio pariatur rem quasi aliquam ducimus perspiciatis, ullam ut hic?
+        Harum, similique? Eveniet accusamus ut autem repellendus et harum quasi qui deserunt. Fugiat deserunt mollitia incidunt ipsum magni eius dicta laudantium, beatae labore libero nobis vitae assumenda, in nisi corrupti!
+        Optio quod dolore dolor harum minus dignissimos quos, excepturi eaque temporibus molestiae unde perspiciatis et quae repudiandae laborum cumque officiis a vero corporis consequatur assumenda natus, reiciendis molestias voluptatem! Dolores.
+        Nam excepturi ab, praesentium quidem ut cumque voluptatem est, repellat repudiandae rem necessitatibus quibusdam. Magnam magni quo nemo hic, iure rerum sint impedit rem quisquam! Facere laudantium earum odit hic?
+        Dolores non officia in atque facere, laudantium deserunt dolor saepe quidem consequatur laborum exercitationem adipisci, reiciendis magnam officiis odio vero enim suscipit placeat ducimus. Nulla sunt porro repudiandae dolores ab.
+        Repellendus soluta consectetur aut ipsa delectus ab enim totam odit. Distinctio, quibusdam labore laboriosam veniam officia deleniti quidem recusandae aperiam, commodi voluptatum omnis. Rerum veritatis velit minus perferendis sint doloremque.
+        Ex doloribus, modi sed, quas distinctio quia tenetur aperiam laborum architecto accusantium perferendis! Molestias quia, numquam hic repellat illo vel placeat aperiam debitis eius, nesciunt ea dolore dolorum harum neque.
+        Ducimus ipsam sequi tempore magni similique reiciendis suscipit ratione modi. Harum dicta sed aliquam! Fugit eius eligendi quidem unde nostrum officia amet nihil, neque quaerat asperiores aspernatur saepe in praesentium?
+        Explicabo necessitatibus blanditiis, iste ducimus et quo expedita incidunt nostrum, repellendus vero laudantium vitae minima possimus labore nulla non doloremque placeat tenetur qui praesentium nesciunt ea eos quaerat? Vitae, vel.
+        Alias ea voluptas dolorem iusto accusamus illo maiores distinctio eligendi dolore minima hic natus ipsam, quam temporibus architecto quod veniam odit in exercitationem laborum. Deleniti asperiores placeat nemo ipsum maxime.
+    </p>
+    <p class="text">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque facere ea magnam placeat adipisci! Quo a fuga odit perferendis itaque fugiat facere, accusantium tenetur deserunt. Temporibus rem quia dolorum quidem.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum at modi quidem suscipit provident aut molestiae, eum quisquam labore assumenda distinctio pariatur rem quasi aliquam ducimus perspiciatis, ullam ut hic?
+        Harum, similique? Eveniet accusamus ut autem repellendus et harum quasi qui deserunt. Fugiat deserunt mollitia incidunt ipsum magni eius dicta laudantium, beatae labore libero nobis vitae assumenda, in nisi corrupti!
+        Optio quod dolore dolor harum minus dignissimos quos, excepturi eaque temporibus molestiae unde perspiciatis et quae repudiandae laborum cumque officiis a vero corporis consequatur assumenda natus, reiciendis molestias voluptatem! Dolores.
+        Nam excepturi ab, praesentium quidem ut cumque voluptatem est, repellat repudiandae rem necessitatibus quibusdam. Magnam magni quo nemo hic, iure rerum sint impedit rem quisquam! Facere laudantium earum odit hic?
+        Dolores non officia in atque facere, laudantium deserunt dolor saepe quidem consequatur laborum exercitationem adipisci, reiciendis magnam officiis odio vero enim suscipit placeat ducimus. Nulla sunt porro repudiandae dolores ab.
+        Repellendus soluta consectetur aut ipsa delectus ab enim totam odit. Distinctio, quibusdam labore laboriosam veniam officia deleniti quidem recusandae aperiam, commodi voluptatum omnis. Rerum veritatis velit minus perferendis sint doloremque.
+        Ex doloribus, modi sed, quas distinctio quia tenetur aperiam laborum architecto accusantium perferendis! Molestias quia, numquam hic repellat illo vel placeat aperiam debitis eius, nesciunt ea dolore dolorum harum neque.
+        Ducimus ipsam sequi tempore magni similique reiciendis suscipit ratione modi. Harum dicta sed aliquam! Fugit eius eligendi quidem unde nostrum officia amet nihil, neque quaerat asperiores aspernatur saepe in praesentium?
+        Explicabo necessitatibus blanditiis, iste ducimus et quo expedita incidunt nostrum, repellendus vero laudantium vitae minima possimus labore nulla non doloremque placeat tenetur qui praesentium nesciunt ea eos quaerat? Vitae, vel.
+        Alias ea voluptas dolorem iusto accusamus illo maiores distinctio eligendi dolore minima hic natus ipsam, quam temporibus architecto quod veniam odit in exercitationem laborum. Deleniti asperiores placeat nemo ipsum maxime.
+    </p>
+        <script>
+        var navbar = document.querySelector("#navbar")
+        window.onscroll = ()=>{
+            this.scrollY > 20 ? navbar.classList.add("sticky"):
+            navbar.classList.remove("sticky")
+        }
+    </script>
+</body>
+
+</html>
